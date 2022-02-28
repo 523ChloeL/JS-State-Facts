@@ -96,7 +96,7 @@
 	var stateList = document.getElementById('state-list');
 		stateList.onchange = function() {
 			var selected = this.value;
-			document.getElementById('info-pic').src = 'img/' + selected + '.jpg';
+			document.getElementById('info-pic').src = '/img/' + selected + '.jpg';
 			document.getElementById('info-name').textContent = stateData[selected].name;
 			document.getElementById('info-abbreviation').textContent = stateData[selected].abbr;
 			document.getElementById('info-capitol').textContent = stateData[selected].capitol;
